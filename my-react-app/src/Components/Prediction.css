@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+
+.nav-left{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.nav-right button{
+    border: 0px;
+    padding: 0rem 0.5rem;
+    background-color: white;
+}
+.nav-right button:hover{
+    cursor: pointer;
+}
+.nav-right button:active{
+    border-bottom: 1px solid blue;
+    border-radius: 3px;
+}
+.nav-right input{
+    margin-left: 1rem;
+    width:45%;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.nav-right{
+    width: 60%;
+    display: flex;
+    align-content: baseline;
+    justify-content: flex-end;
+    gap: 0.2rem;
+}
+
+.nav-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cl,.bl{
+    color: grey;
+}
+
+.price{
+    padding-left:2rem;
+    padding-top: 0.5rem;
+}
+.price-top{
+    display: flex;
+    gap: 0.6rem;
+    align-items: baseline;
+}
+.cp{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.inc{
+    font-size: 1.1rem;
+    color: green;
+    font-weight: 500;
+}
+
+.price-btm{
+    color:grey;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.days button{
+    text-decoration: none;
+    color: grey;
+    background-color: white;
+    border: 0px;
+}
+
+.days{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.days button:hover{
+    border-bottom: 4px solid blue;
+    border-radius: 3px;
+}
+
+.chart{
+    padding-top: 3rem;
+}
+
+.heading{
+    padding-left:2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.predict{
+    margin:1.3rem 2rem;
+    padding-left:1rem;
+    padding-top: 1rem;
+    border-radius: 7px;
+    background-color: rgb(243, 242, 242);
+}
+
+.para1{
+    font-size: 1.2rem;
+    color: rgb(91, 91, 91);
+}
+.para2{
+    font-size: 0.8rem;
+    color: rgb(91, 91, 91);
+}
+.data{
+    margin-top: 1rem;
+}
+
+.key{
+    margin: 1.3rem 2rem;
+}
+
+.heading2{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.top,.bottom{
+
+    display: flex;
+    gap:2rem;
+}
+
+.top div,.bottom div{
+    background-color: rgb(243, 242, 242);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.stats-box{
+    margin-bottom: 2rem;
+}
+
+.head{
+    color: rgb(91, 91, 91);
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
